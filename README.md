@@ -141,6 +141,8 @@ The repository includes two exploration strategies:
 - a modified BFS with a nearest-frontier, TSP-inspired selection rule
 - a lightweight POMDP-inspired frontier scoring method that trades off exploration value, travel cost, and elapsed steps
 
+In the POMDP-inspired approach, each frontier cell is given a simple reward score based on how promising it is to explore, how far it is from the current rover position, and how much time has already been spent. The rover then selects the frontier with the highest score and plans a route to it over the currently known map.
+
 Both follow the same high-level loop:
 
 - scan walls
