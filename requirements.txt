@@ -1,0 +1,7 @@
+# Core scientific stack
+numpy
+matplotlib
+
+# Hardware I2C access is platform-specific.
+# On Raspberry Pi, install the system package that provides `smbus`
+# if it is not already available in the OS image.
