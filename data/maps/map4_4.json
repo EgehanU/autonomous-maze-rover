@@ -1,0 +1,131 @@
+{
+  "maze": [
+    [
+      [
+        true,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        false
+      ]
+    ],
+    [
+      [
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        false
+      ]
+    ],
+    [
+      [
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  ],
+  "dimensions": {
+    "height": 4,
+    "width": 4
+  },
+  "boundaries": {
+    "min_x": 0,
+    "max_x": 3,
+    "min_y": 0,
+    "max_y": 3
+  },
+  "exploration_info": {
+    "cells_explored": 16,
+    "total_distance_traveled": 0,
+    "exploration_steps": 0,
+    "original_maze_size": "4x4",
+    "exploration_percentage": 100.0
+  },
+  "robot_specs": {
+    "cell_size": 55,
+    "robot_length": 27,
+    "robot_width": 17
+  },
+ 
+}
